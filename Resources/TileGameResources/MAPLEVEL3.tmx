@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="8" height="12" tilewidth="64" tileheight="64" infinite="0" nextlayerid="6" nextobjectid="2">
+ <tileset firstgid="1" name="3" tilewidth="64" tileheight="64" spacing="1" margin="1" tilecount="1144" columns="52">
+  <image source="3.jpg" width="3440" height="1440"/>
+  <tile id="0">
+   <properties>
+    <property name="Blockage" value="True"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="1145" name="4" tilewidth="64" tileheight="64" spacing="1" margin="1" tilecount="99" columns="11">
+  <image source="4.jpg" width="736" height="588"/>
+ </tileset>
+ <layer id="1" name="Background" width="8" height="12">
+  <data encoding="csv">
+293,294,295,296,297,298,299,300,
+345,346,347,348,349,350,351,352,
+397,398,399,400,401,402,403,404,
+449,450,451,452,453,454,455,456,
+501,502,503,504,505,506,507,508,
+553,554,555,556,557,558,559,560,
+605,606,607,608,609,610,611,612,
+657,658,659,660,661,662,663,664,
+709,710,711,712,713,714,715,716,
+761,762,763,764,765,766,767,768,
+813,814,815,816,817,818,819,820,
+865,866,867,868,869,870,871,872
+</data>
+ </layer>
+ <layer id="3" name="traj" width="8" height="12">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,
+0,1171,0,0,1171,1171,1171,0,
+0,1171,0,0,1171,0,1171,0,
+0,1171,1171,1171,1171,1171,1171,0,
+0,0,0,0,1171,0,0,0,
+0,0,0,0,1171,0,0,0,
+0,1171,1171,1171,1171,1171,1171,0,
+0,1171,1171,0,1171,0,1171,0,
+0,1171,1171,0,1171,0,1171,0,
+0,1171,1171,0,1171,0,1171,0,
+0,1171,1171,0,1171,1171,1171,0,
+0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="4" name="blockage01" width="8" height="12">
+  <data encoding="csv">
+1,1,1,1,1,1,1,1,
+1,0,1,1,0,0,0,1,
+1,0,1,1,0,1,0,1,
+1,0,0,0,0,0,0,1,
+1,1,1,1,0,1,1,1,
+1,1,1,1,0,1,1,1,
+1,0,0,0,0,0,0,1,
+1,0,0,1,0,1,0,1,
+1,0,0,1,0,1,0,1,
+1,0,0,1,0,1,0,1,
+1,0,0,1,0,0,0,1,
+1,1,1,1,1,1,1,1
+</data>
+ </layer>
+ <objectgroup id="5" name="Objects">
+  <object id="1" name="Ball" x="96" y="674"/>
+ </objectgroup>
+</map>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="8" height="12" tilewidth="64" tileheight="64" infinite="0" nextlayerid="6" nextobjectid="3">
+ <tileset firstgid="1" name="electro-wave-retro-skyline-buildings-jk" tilewidth="64" tileheight="64" spacing="1" margin="1" tilecount="464" columns="29">
+  <image source="electro-wave-retro-skyline-buildings-jk.jpg" width="1920" height="1080"/>
+ </tileset>
+ <tileset firstgid="465" name="electro-wave-retro-skyline-buildings-jk" tilewidth="64" tileheight="64" spacing="1" margin="1" tilecount="464" columns="29">
+  <image source="electro-wave-retro-skyline-buildings-jk.jpg" width="1920" height="1080"/>
+ </tileset>
+ <tileset firstgid="929" name="WhatsApp Image 2022-01-04 at 20.59.38" tilewidth="64" tileheight="64" spacing="1" margin="1" tilecount="99" columns="11">
+  <image source="WhatsApp Image 2022-01-04 at 20.59.38.jpeg" width="736" height="588"/>
+ </tileset>
+ <tileset firstgid="1028" name="2560" tilewidth="64" tileheight="64" spacing="1" margin="1" tilecount="234" columns="18">
+  <image source="2560.jpg" width="1200" height="900"/>
+  <tile id="0">
+   <properties>
+    <property name="Blockage" value="True"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="1262" name="WhatsApp Image 2022-01-04 at 20.59.38" tilewidth="64" tileheight="64" spacing="1" margin="1" tilecount="99" columns="11">
+  <image source="WhatsApp Image 2022-01-04 at 20.59.38.jpeg" width="736" height="588"/>
+ </tileset>
+ <tileset firstgid="1361" name="electro-wave-retro-skyline-buildings-jk" tilewidth="64" tileheight="64" spacing="1" margin="1" tilecount="464" columns="29">
+  <image source="electro-wave-retro-skyline-buildings-jk.jpg" width="1920" height="1080"/>
+ </tileset>
+ <tileset firstgid="1825" name="WhatsApp Image 2022-01-04 at 20.59.38" tilewidth="64" tileheight="64" spacing="1" margin="1" tilecount="99" columns="11">
+  <image source="WhatsApp Image 2022-01-04 at 20.59.38.jpeg" width="736" height="588"/>
+ </tileset>
+ <tileset firstgid="1924" name="2560" tilewidth="64" tileheight="64" spacing="1" margin="1" tilecount="234" columns="18">
+  <image source="2560.jpg" width="1200" height="900"/>
+  <tile id="0">
+   <properties>
+    <property name="Blockage" value="True"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer id="1" name="Background" width="8" height="12">
+  <data encoding="csv">
+1373,1374,1375,1376,1377,1378,1379,1380,
+1402,1403,1404,1405,1406,1407,1408,1409,
+1431,1432,1433,1434,1435,1436,1437,1438,
+1460,1461,1462,1463,1464,1465,1466,1467,
+1489,1490,1491,1492,1493,1494,1495,1496,
+1518,1519,1520,1521,1522,1523,1524,1525,
+1547,1548,1549,1550,1551,1552,1553,1554,
+1576,1577,1578,1579,1580,1581,1582,1583,
+1605,1606,1607,1608,1609,1610,1611,1612,
+1634,1635,1636,1637,1638,1639,1640,1641,
+1663,1664,1665,1666,1667,1668,1669,1670,
+1691,1692,1693,1694,1695,1696,1697,1698
+</data>
+ </layer>
+ <layer id="2" name="traj" width="8" height="12">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,929,929,929,0,0,929,0,
+0,0,0,929,0,0,929,0,
+0,0,0,929,0,0,929,0,
+0,929,929,929,0,0,929,0,
+0,929,0,0,0,0,929,0,
+0,929,0,0,0,0,929,0,
+0,929,929,929,929,929,929,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="3" name="blockage01" width="8" height="12">
+  <data encoding="csv">
+1924,1924,1924,1924,1924,1924,1924,1924,
+1924,1924,1924,1924,1924,1924,1924,1924,
+1924,0,0,0,1924,1924,0,1924,
+1924,1924,1924,0,1924,1924,0,1924,
+1924,1924,1924,0,1924,1924,0,1924,
+1924,0,0,0,1924,1924,0,1924,
+1924,0,1924,1924,1924,1924,0,1924,
+1924,0,1924,1924,1924,1924,0,1924,
+1924,0,0,0,0,0,0,1924,
+1924,1924,1924,1924,1924,1924,1924,1924,
+1924,1924,1924,1924,1924,1924,1924,1924,
+1924,1924,1924,1924,1924,1924,1924,1924
+</data>
+ </layer>
+ <objectgroup id="5" name="Objects">
+  <object id="2" name="Ball" x="88.3969" y="151.773" width="13.6558" height="12.2902"/>
+ </objectgroup>
+</map>
